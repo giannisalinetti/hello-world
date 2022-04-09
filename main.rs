@@ -1,3 +1,4 @@
 fn main() {
-  println!("Hello World!");
+  let custom_string = String::from("Hello, World!");
+  println!("{}", custom_string);
 }
